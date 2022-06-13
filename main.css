@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  align-items: stretch;
+  border: 2px solid hotpink;
+  height: 100vh;
+}
+
+div {
+  border: 2px dotted chartreuse;
+  width: 20%;
+}
+
+/* .strobe_1 {
+  background-color: yellow;
+  /* animation: first 2s infinite alternate-reverse; */
+/* animation: first 2s infinite alternate; */
+/* }  */
+
+.strobe_1:hover {
+  background-color: yellow;
+  /* animation: first 2s infinite alternate-reverse; */
+  animation: first 2s infinite alternate;
+}
+
+.strobe_2:hover {
+  background-color: yellow;
+  /* animation: first 2s infinite alternate-reverse; */
+  animation: first 2s infinite alternate;
+}
+
+.strobe_3:hover {
+  background-color: yellow;
+  /* animation: first 2s infinite alternate-reverse; */
+  animation: first 2s infinite alternate;
+}
+
+.strobe_4:hover {
+  background-color: yellow;
+  /* animation: first 2s infinite alternate-reverse; */
+  animation: first 2s infinite alternate;
+}
+
+.strobe_5:hover {
+  background-color: yellow;
+  /* animation: first 2s infinite alternate-reverse; */
+  animation: first 2s infinite alternate;
+}
+
+@keyframes first {
+  0% {
+    background-color: yellow;
+  }
+
+  /* 50% {
+    background-color: transparent;
+  } */
+
+  100% {
+    background-color: transparent;
+  }
+}
